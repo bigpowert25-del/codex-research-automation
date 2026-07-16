@@ -1,0 +1,46 @@
+{
+  "item_id": "fav-3b43b734325d",
+  "title": "本地 JSONL 去重工具",
+  "source_url": "https://example.com/tools/jsonl-deduper",
+  "canonical_source_url": "https://example.com/tools/jsonl-deduper",
+  "captured_at": "2026-07-15T10:15:00+08:00",
+  "notes": "工具可以处理 JSONL，并按规范化链接去重。",
+  "tags": [
+    "工具",
+    "去重"
+  ],
+  "category_hint": "tool",
+  "evidence": [
+    {
+      "type": "manual_test",
+      "claim": "人工测试记录显示它能读取 JSONL",
+      "locator": "本地测试笔记/case-1",
+      "strength": "medium",
+      "quote": ""
+    }
+  ],
+  "content_fingerprint": "d8b03834a7ee245f1148d7ac314d6777bcc3535e3c2f4eb1b77fbe687eace7e9",
+  "classification": {
+    "suggested_category": "tool",
+    "confidence": 0.98,
+    "reasons": [
+      "输入提供了 category_hint；仍需人工确认"
+    ]
+  },
+  "suggested_priority": "P3",
+  "priority_reasons": [
+    "已有人工备注"
+  ],
+  "suggested_output_dir": "categorized/tool",
+  "evidence_status": "present",
+  "review_status": "approved",
+  "category": "tool",
+  "priority": "P3",
+  "output_dir": "categorized/tool",
+  "review": {
+    "action": "approve",
+    "reviewer": "sample-human",
+    "decided_at": "2026-07-15T11:03:00+08:00",
+    "comment": ""
+  }
+}

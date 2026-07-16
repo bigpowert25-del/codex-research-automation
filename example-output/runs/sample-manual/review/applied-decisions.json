@@ -1,0 +1,41 @@
+{
+  "source": "samples/review-decisions.json",
+  "decisions": [
+    {
+      "item_id": "fav-cce131abf8a7",
+      "action": "approve",
+      "reviewer": "sample-human",
+      "decided_at": "2026-07-15T11:00:00+08:00",
+      "comment": "项目方向与安全边界明确，批准生成 brief。"
+    },
+    {
+      "item_id": "fav-3f7de60924ee",
+      "action": "approve",
+      "reviewer": "sample-human",
+      "decided_at": "2026-07-15T11:01:00+08:00"
+    },
+    {
+      "item_id": "fav-d68b18fa5f15",
+      "action": "edit",
+      "reviewer": "sample-human",
+      "decided_at": "2026-07-15T11:02:00+08:00",
+      "overrides": {
+        "priority": "P3"
+      },
+      "comment": "分类保留，优先级下调。"
+    },
+    {
+      "item_id": "fav-3b43b734325d",
+      "action": "approve",
+      "reviewer": "sample-human",
+      "decided_at": "2026-07-15T11:03:00+08:00"
+    },
+    {
+      "item_id": "fav-71141412ad48",
+      "action": "reject",
+      "reviewer": "sample-human",
+      "decided_at": "2026-07-15T11:04:00+08:00",
+      "comment": "会产生外部写入，且证据不足。"
+    }
+  ]
+}

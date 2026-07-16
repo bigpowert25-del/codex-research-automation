@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "run_id": "sample-manual",
+  "created_at": "2026-07-15T04:32:44Z",
+  "input_path": "samples/inbox.jsonl",
+  "status": "published",
+  "network_access": "disabled_by_design",
+  "counts": {
+    "received": 6,
+    "unique": 5,
+    "duplicates": 1,
+    "pending_review": 0,
+    "approved": 4,
+    "rejected": 1,
+    "briefs": 1
+  },
+  "published_at": "2026-07-15T04:32:44Z"
+}

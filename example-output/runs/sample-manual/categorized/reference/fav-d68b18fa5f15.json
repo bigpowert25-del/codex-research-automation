@@ -1,0 +1,46 @@
+{
+  "item_id": "fav-d68b18fa5f15",
+  "title": "编辑型研究清单视觉参考",
+  "source_url": "https://example.com/reference/editorial-research-list",
+  "canonical_source_url": "https://example.com/reference/editorial-research-list",
+  "captured_at": "2026-07-15T10:10:00+08:00",
+  "notes": "作为信息层级与证据表格的设计参考。",
+  "tags": [
+    "参考",
+    "设计"
+  ],
+  "category_hint": "reference",
+  "evidence": [
+    {
+      "type": "screenshot_observation",
+      "claim": "页面使用清晰的来源、状态和优先级层级",
+      "locator": "人工截图/overview.png",
+      "strength": "medium",
+      "quote": ""
+    }
+  ],
+  "content_fingerprint": "bb921b7b761b354029ffaeeedf08a5624193918bfb408e2c692cd908af59a7d9",
+  "classification": {
+    "suggested_category": "reference",
+    "confidence": 0.98,
+    "reasons": [
+      "输入提供了 category_hint；仍需人工确认"
+    ]
+  },
+  "suggested_priority": "P3",
+  "priority_reasons": [
+    "已有人工备注"
+  ],
+  "suggested_output_dir": "categorized/reference",
+  "evidence_status": "present",
+  "review_status": "approved",
+  "category": "reference",
+  "priority": "P3",
+  "output_dir": "categorized/reference",
+  "review": {
+    "action": "edit",
+    "reviewer": "sample-human",
+    "decided_at": "2026-07-15T11:02:00+08:00",
+    "comment": "分类保留，优先级下调。"
+  }
+}

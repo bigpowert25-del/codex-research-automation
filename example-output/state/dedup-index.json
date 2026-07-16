@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-15T04:32:44Z",
+  "by_url": {
+    "https://www.douyin.com/video/7653472411480864767": "fav-cce131abf8a7",
+    "https://example.com/tutorial/python-cli-stages": "fav-3f7de60924ee",
+    "https://example.com/reference/editorial-research-list": "fav-d68b18fa5f15",
+    "https://example.com/tools/jsonl-deduper": "fav-3b43b734325d",
+    "https://example.com/tools/auto-publisher": "fav-71141412ad48"
+  },
+  "by_content": {
+    "3062ccf84308dd0c7ad12def611f90d152f9fac8d99039f53c4936910d776200": "fav-cce131abf8a7",
+    "fae2f63bd1a0fea217d5c4bd19ecacdf2010db85dbcb1f8be6073d0a39207d0e": "fav-3f7de60924ee",
+    "bb921b7b761b354029ffaeeedf08a5624193918bfb408e2c692cd908af59a7d9": "fav-d68b18fa5f15",
+    "d8b03834a7ee245f1148d7ac314d6777bcc3535e3c2f4eb1b77fbe687eace7e9": "fav-3b43b734325d",
+    "342cbb5dd09f010aa556dd02bcb3e1ab424599b1ccc71f447946c13e6eaf711e": "fav-71141412ad48"
+  }
+}

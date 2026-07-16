@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "pipeline": {
+    "input_path": "inbox/inbox.jsonl",
+    "output_root": "output",
+    "allowed_categories": [
+      "project",
+      "tutorial",
+      "reference",
+      "tool"
+    ],
+    "require_human_confirmation": true,
+    "dedup_keys": [
+      "canonical_source_url",
+      "content_fingerprint"
+    ]
+  },
+  "research": {
+    "remote_fetch": false,
+    "mode": "local_evidence_only",
+    "require_source_url": true,
+    "evidence_required_fields": [
+      "type",
+      "claim",
+      "locator"
+    ]
+  },
+  "schedule": {
+    "enabled": false,
+    "mode": "prepare_only",
+    "timezone": "Asia/Shanghai",
+    "suggested_cron": "0 20 * * *",
+    "prompt_file": "prompts/schedule-ready.md",
+    "create_real_task": false
+  }
+}

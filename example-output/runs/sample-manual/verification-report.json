@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-07-16T00:50:30Z",
+  "run_id": "sample-manual",
+  "status": "pass",
+  "checks": {
+    "approved_items": 4,
+    "errors": []
+  }
+}

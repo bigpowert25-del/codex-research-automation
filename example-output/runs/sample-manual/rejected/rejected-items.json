@@ -1,0 +1,13 @@
+[
+  {
+    "item_id": "fav-71141412ad48",
+    "title": "尚未确认的自动发布工具",
+    "source_url": "https://example.com/tools/auto-publisher",
+    "review_status": "rejected",
+    "review": {
+      "reviewer": "sample-human",
+      "decided_at": "2026-07-15T11:04:00+08:00",
+      "comment": "会产生外部写入，且证据不足。"
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "item_id": "fav-3f7de60924ee",
+  "title": "Python CLI 分阶段执行教程",
+  "source_url": "https://example.com/tutorial/python-cli-stages",
+  "canonical_source_url": "https://example.com/tutorial/python-cli-stages",
+  "captured_at": "2026-07-15T10:05:00+08:00",
+  "notes": "教程讲解 prepare、review、publish 三步命令的组织方式。",
+  "tags": [
+    "教程",
+    "Python"
+  ],
+  "category_hint": "tutorial",
+  "evidence": [
+    {
+      "type": "manual_note",
+      "claim": "内容包含三阶段命令示例",
+      "locator": "人工摘录/第2段",
+      "strength": "medium",
+      "quote": ""
+    }
+  ],
+  "content_fingerprint": "fae2f63bd1a0fea217d5c4bd19ecacdf2010db85dbcb1f8be6073d0a39207d0e",
+  "classification": {
+    "suggested_category": "tutorial",
+    "confidence": 0.98,
+    "reasons": [
+      "输入提供了 category_hint；仍需人工确认"
+    ]
+  },
+  "suggested_priority": "P3",
+  "priority_reasons": [
+    "已有人工备注"
+  ],
+  "suggested_output_dir": "categorized/tutorial",
+  "evidence_status": "present",
+  "review_status": "approved",
+  "category": "tutorial",
+  "priority": "P3",
+  "output_dir": "categorized/tutorial",
+  "review": {
+    "action": "approve",
+    "reviewer": "sample-human",
+    "decided_at": "2026-07-15T11:01:00+08:00",
+    "comment": ""
+  }
+}

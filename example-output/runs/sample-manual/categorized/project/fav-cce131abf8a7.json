@@ -1,0 +1,56 @@
+{
+  "item_id": "fav-cce131abf8a7",
+  "title": "Codex 收藏研究自动化",
+  "source_url": "https://www.douyin.com/video/7653472411480864767?utm_source=sample",
+  "canonical_source_url": "https://www.douyin.com/video/7653472411480864767",
+  "captured_at": "2026-07-15T10:00:00+08:00",
+  "notes": "做一个本地收藏收件箱，先分类和人工确认，再形成研究记录与项目 brief。",
+  "tags": [
+    "项目",
+    "自动化",
+    "Codex"
+  ],
+  "category_hint": "project",
+  "evidence": [
+    {
+      "type": "source_observation",
+      "claim": "收藏主题是 Codex 自动化工作流",
+      "locator": "人工记录的视频标题",
+      "strength": "high",
+      "quote": "Codex 自动化工作流"
+    },
+    {
+      "type": "research_note",
+      "claim": "建议保留人工触发与确认，不做静默账号操作",
+      "locator": "抖音近期收藏-vibe-coding项目研究.md:242",
+      "strength": "high",
+      "quote": ""
+    }
+  ],
+  "content_fingerprint": "3062ccf84308dd0c7ad12def611f90d152f9fac8d99039f53c4936910d776200",
+  "classification": {
+    "suggested_category": "project",
+    "confidence": 0.98,
+    "reasons": [
+      "输入提供了 category_hint；仍需人工确认"
+    ]
+  },
+  "suggested_priority": "P1",
+  "priority_reasons": [
+    "项目型收藏可形成明确产出",
+    "包含至少两条本地证据",
+    "已有人工备注"
+  ],
+  "suggested_output_dir": "categorized/project",
+  "evidence_status": "present",
+  "review_status": "approved",
+  "category": "project",
+  "priority": "P1",
+  "output_dir": "categorized/project",
+  "review": {
+    "action": "approve",
+    "reviewer": "sample-human",
+    "decided_at": "2026-07-15T11:00:00+08:00",
+    "comment": "项目方向与安全边界明确，批准生成 brief。"
+  }
+}
